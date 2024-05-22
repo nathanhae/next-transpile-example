@@ -1,0 +1,16 @@
+name: Validate Checklist Tasks
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - reopened
+      - ready_for_review
+      - unlocked
+      - synchronize
+jobs:
+  validate-checklist-tasks:
+    name: validate checklist
+    runs-on: ubuntu-latest
+    steps:
+      - uses: nathanhae/html5-device-support-checklist@main
