@@ -1,4 +1,4 @@
-## QA Device Checklist
+## Device Checklist
 
 - [ ] Tizen
 - [ ] Vizio
